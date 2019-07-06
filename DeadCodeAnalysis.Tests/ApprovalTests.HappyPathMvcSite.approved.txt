@@ -1,0 +1,25 @@
+﻿All classes and methods:
+Tests.MvcSiteWithDeadCode.Program: Void Main(System.String[] args)
+Tests.MvcSiteWithDeadCode.Program: IWebHostBuilder CreateWebHostBuilder(System.String[] args)
+Tests.MvcSiteWithDeadCode.Startup: IConfiguration get_Configuration()
+Tests.MvcSiteWithDeadCode.Startup: Void ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection services)
+Tests.MvcSiteWithDeadCode.Startup: Void Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder app, Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
+Tests.MvcSiteWithDeadCode.Models.ErrorViewModel: String get_RequestId()
+Tests.MvcSiteWithDeadCode.Models.ErrorViewModel: Void set_RequestId(System.String value)
+Tests.MvcSiteWithDeadCode.Models.ErrorViewModel: Boolean get_ShowRequestId()
+Tests.MvcSiteWithDeadCode.Controllers.HomeController: IActionResult Index()
+Tests.MvcSiteWithDeadCode.Controllers.HomeController: IActionResult About()
+Tests.MvcSiteWithDeadCode.Controllers.HomeController: IActionResult Contact()
+Tests.MvcSiteWithDeadCode.Controllers.HomeController: IActionResult Privacy()
+Tests.MvcSiteWithDeadCode.Controllers.HomeController: IActionResult Error()
+
+Uncalled Classes:
+Tests.MvcSiteWithDeadCode.Program
+Tests.MvcSiteWithDeadCode.Startup
+Tests.MvcSiteWithDeadCode.Models.ErrorViewModel
+
+Uncalled Methods:
+Tests.MvcSiteWithDeadCode.Controllers.HomeController: IActionResult About()
+Tests.MvcSiteWithDeadCode.Controllers.HomeController: IActionResult Contact()
+Tests.MvcSiteWithDeadCode.Controllers.HomeController: IActionResult Privacy()
+Tests.MvcSiteWithDeadCode.Controllers.HomeController: IActionResult Error()

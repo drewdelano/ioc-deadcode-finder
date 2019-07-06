@@ -1,0 +1,19 @@
+﻿All classes and methods:
+Tests.ProjectWithDeadCode.Class1: Void Called()
+Tests.ProjectWithDeadCode.Class1: Void NotCalled()
+Tests.ProjectWithDeadCode.Class2: Void Called()
+Tests.ProjectWithDeadCode.Class2: Void AlsoCalled()
+Tests.ProjectWithDeadCode.Class2: Void NotCalled()
+Tests.ProjectWithDeadCode.Fun: Void Called()
+Tests.ProjectWithDeadCode.Fun: Void NotCalled()
+Tests.ProjectWithDeadCode.IFunWithInterfaces: Void Called()
+Tests.ProjectWithDeadCode.IFunWithInterfaces: Void NotCalled()
+
+Uncalled Classes:
+<None>
+
+Uncalled Methods:
+Tests.ProjectWithDeadCode.Class1: Void NotCalled()
+Tests.ProjectWithDeadCode.Class2: Void NotCalled()
+Tests.ProjectWithDeadCode.Fun: Void NotCalled()
+Tests.ProjectWithDeadCode.IFunWithInterfaces: Void NotCalled()
