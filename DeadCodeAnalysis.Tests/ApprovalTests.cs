@@ -10,6 +10,9 @@ using Xunit;
 
 namespace DeadCodeAnalysis.Tests
 {
+	// Attributes
+	// Lambdas
+	// Generics
     public class ApprovalTests
     {
         [Fact]

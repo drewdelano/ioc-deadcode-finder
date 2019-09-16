@@ -7,24 +7,30 @@ using System.Text;
 
 namespace DeadCodeAnalysis.Library
 {
-    public class DeadCodeAnalyzer
-    {
-        public List<Assembly> AssembliesToAnalyze { get; set; } = new List<Assembly>();
+	public class DeadCodeAnalyzer
+	{
+		public List<Assembly> AssembliesToAnalyze { get; set; } = new List<Assembly>();
 
-        public List<MethodInfo> EntryPoints { get; set; } = new List<MethodInfo>();
+		public List<MethodInfo> EntryPoints { get; set; } = new List<MethodInfo>();
 
-        public GraphTrackingResults Analyze()
-        {
-            var graph = new GraphTrackingResults();
-            graph.GenerateMethodGraph(AssembliesToAnalyze);
+		public Func<Type, List<MethodBase>> MarkMethodsAsImplicitlyCalled { get; set; }
 
-            var ilWalker = new ILCallWalker(graph);
-            ilWalker.EntryPoints = EntryPoints;
-            ilWalker.WalkMethod();
+		public List<Plugin> Plugins { get; } = new List<Plugin>();
 
-            graph.BuildReport();
-            return graph;
-        }
+		public GraphTrackingResults Analyze()
+		{
+			var graph = new GraphTrackingResults(Plugins);
+			graph.GenerateMethodGraph(AssembliesToAnalyze);
 
-    }
+			var ilWalker = new ILCallWalker(graph);
+			ilWalker.EntryPoints = EntryPoints;
+			ilWalker.Plugins.AddRange(Plugins);
+			ilWalker.MarkMethodsAsImplicitlyCalled = MarkMethodsAsImplicitlyCalled;
+			ilWalker.WalkMethod();
+
+			graph.FinalizeReport();
+			return graph;
+		}
+
+	}
 }

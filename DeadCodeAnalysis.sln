@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeadCodeAnalysis", "DeadCodeAnalysis\DeadCodeAnalysis.csproj", "{F49C0783-FBE7-41F7-9763-70E7AB181EE7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeadCodeAnalysis.Library", "DeadCodeAnalysis.Library\DeadCodeAnalysis.Library.csproj", "{80A6FD8E-E430-4FFB-959D-27AC03958BC5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.ProjectWithDeadCode", "Tests.ProjectWithDeadCode\Tests.ProjectWithDeadCode.csproj", "{798E13B2-AA41-48EE-8EAC-98157A3792A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadCodeAnalysis.Tests", "DeadCodeAnalysis.Tests\DeadCodeAnalysis.Tests.csproj", "{D127CC06-F230-4157-BF8C-4847CBBCD668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeadCodeAnalysis.Tests", "DeadCodeAnalysis.Tests\DeadCodeAnalysis.Tests.csproj", "{D127CC06-F230-4157-BF8C-4847CBBCD668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.MvcSiteWithDeadCode", "Tests.MvcSiteWithDeadCode\Tests.MvcSiteWithDeadCode.csproj", "{F6B148D4-2E08-4950-B88D-5FFF51DC3251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.MvcSiteWithDeadCode", "Tests.MvcSiteWithDeadCode\Tests.MvcSiteWithDeadCode.csproj", "{F6B148D4-2E08-4950-B88D-5FFF51DC3251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadCodeAnalysis.Console", "DeadCodeAnalysis.Console\DeadCodeAnalysis.Console.csproj", "{76725F8B-072E-4167-9B7B-E93FEBB4AC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadCodeAnalysis.Plugins", "DeadCodeAnalysis.Plugins\DeadCodeAnalysis.Plugins.csproj", "{69EF930B-01A9-40BE-82C7-E128F4EEF899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F49C0783-FBE7-41F7-9763-70E7AB181EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F49C0783-FBE7-41F7-9763-70E7AB181EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F49C0783-FBE7-41F7-9763-70E7AB181EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F49C0783-FBE7-41F7-9763-70E7AB181EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80A6FD8E-E430-4FFB-959D-27AC03958BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80A6FD8E-E430-4FFB-959D-27AC03958BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A6FD8E-E430-4FFB-959D-27AC03958BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +37,14 @@ Global
 		{F6B148D4-2E08-4950-B88D-5FFF51DC3251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6B148D4-2E08-4950-B88D-5FFF51DC3251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6B148D4-2E08-4950-B88D-5FFF51DC3251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76725F8B-072E-4167-9B7B-E93FEBB4AC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76725F8B-072E-4167-9B7B-E93FEBB4AC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76725F8B-072E-4167-9B7B-E93FEBB4AC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76725F8B-072E-4167-9B7B-E93FEBB4AC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69EF930B-01A9-40BE-82C7-E128F4EEF899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69EF930B-01A9-40BE-82C7-E128F4EEF899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69EF930B-01A9-40BE-82C7-E128F4EEF899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69EF930B-01A9-40BE-82C7-E128F4EEF899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
