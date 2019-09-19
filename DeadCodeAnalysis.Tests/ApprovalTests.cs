@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Tests.MvcSiteWithDeadCode.Controllers;
+using Tests.DeadCodeProject.Controllers;
 using Tests.ProjectWithDeadCode;
 using Xunit;
 

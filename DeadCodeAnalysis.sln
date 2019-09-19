@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeadCodeAnalysis.Library", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.ProjectWithDeadCode", "Tests.ProjectWithDeadCode\Tests.ProjectWithDeadCode.csproj", "{798E13B2-AA41-48EE-8EAC-98157A3792A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeadCodeAnalysis.Tests", "DeadCodeAnalysis.Tests\DeadCodeAnalysis.Tests.csproj", "{D127CC06-F230-4157-BF8C-4847CBBCD668}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.MvcSiteWithDeadCode", "Tests.MvcSiteWithDeadCode\Tests.MvcSiteWithDeadCode.csproj", "{F6B148D4-2E08-4950-B88D-5FFF51DC3251}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadCodeAnalysis.Console", "DeadCodeAnalysis.Console\DeadCodeAnalysis.Console.csproj", "{76725F8B-072E-4167-9B7B-E93FEBB4AC58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadCodeAnalysis.Plugins", "DeadCodeAnalysis.Plugins\DeadCodeAnalysis.Plugins.csproj", "{69EF930B-01A9-40BE-82C7-E128F4EEF899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.DeadCodeProject", "Tests.DeadCodeProject\Tests.DeadCodeProject.csproj", "{2854C2A0-74AE-4483-A611-8F10814754DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadCodeAnalysis.Tests", "DeadCodeAnalysis.Tests\DeadCodeAnalysis.Tests.csproj", "{D1853DC9-4E96-4E2D-8A78-E102F3CD348A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +29,6 @@ Global
 		{798E13B2-AA41-48EE-8EAC-98157A3792A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{798E13B2-AA41-48EE-8EAC-98157A3792A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{798E13B2-AA41-48EE-8EAC-98157A3792A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D127CC06-F230-4157-BF8C-4847CBBCD668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D127CC06-F230-4157-BF8C-4847CBBCD668}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D127CC06-F230-4157-BF8C-4847CBBCD668}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D127CC06-F230-4157-BF8C-4847CBBCD668}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6B148D4-2E08-4950-B88D-5FFF51DC3251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6B148D4-2E08-4950-B88D-5FFF51DC3251}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6B148D4-2E08-4950-B88D-5FFF51DC3251}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6B148D4-2E08-4950-B88D-5FFF51DC3251}.Release|Any CPU.Build.0 = Release|Any CPU
 		{76725F8B-072E-4167-9B7B-E93FEBB4AC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{76725F8B-072E-4167-9B7B-E93FEBB4AC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76725F8B-072E-4167-9B7B-E93FEBB4AC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +37,14 @@ Global
 		{69EF930B-01A9-40BE-82C7-E128F4EEF899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69EF930B-01A9-40BE-82C7-E128F4EEF899}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69EF930B-01A9-40BE-82C7-E128F4EEF899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2854C2A0-74AE-4483-A611-8F10814754DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2854C2A0-74AE-4483-A611-8F10814754DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2854C2A0-74AE-4483-A611-8F10814754DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2854C2A0-74AE-4483-A611-8F10814754DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1853DC9-4E96-4E2D-8A78-E102F3CD348A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1853DC9-4E96-4E2D-8A78-E102F3CD348A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1853DC9-4E96-4E2D-8A78-E102F3CD348A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1853DC9-4E96-4E2D-8A78-E102F3CD348A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
