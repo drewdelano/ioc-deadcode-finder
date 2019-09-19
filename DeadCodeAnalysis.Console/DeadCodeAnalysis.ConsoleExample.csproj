@@ -9,8 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{76725F8B-072E-4167-9B7B-E93FEBB4AC58}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DeadCodeAnalysis.Console</RootNamespace>
-    <AssemblyName>DeadCodeAnalysis.Console</AssemblyName>
+    <RootNamespace>DeadCodeAnalysis.ConsoleExample</RootNamespace>
+    <AssemblyName>DeadCodeAnalysis.ConsoleExample</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -426,6 +426,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypeExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

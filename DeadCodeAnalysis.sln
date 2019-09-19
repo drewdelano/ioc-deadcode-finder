@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeadCodeAnalysis.Library", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.ProjectWithDeadCode", "Tests.ProjectWithDeadCode\Tests.ProjectWithDeadCode.csproj", "{798E13B2-AA41-48EE-8EAC-98157A3792A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadCodeAnalysis.Console", "DeadCodeAnalysis.Console\DeadCodeAnalysis.Console.csproj", "{76725F8B-072E-4167-9B7B-E93FEBB4AC58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadCodeAnalysis.ConsoleExample", "DeadCodeAnalysis.Console\DeadCodeAnalysis.ConsoleExample.csproj", "{76725F8B-072E-4167-9B7B-E93FEBB4AC58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadCodeAnalysis.Plugins", "DeadCodeAnalysis.Plugins\DeadCodeAnalysis.Plugins.csproj", "{69EF930B-01A9-40BE-82C7-E128F4EEF899}"
 EndProject
